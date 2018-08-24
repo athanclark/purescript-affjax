@@ -27,7 +27,7 @@ import Control.Monad.Eff.Ref (REF, newRef, readRef, writeRef)
 import Control.Monad.Except (runExcept, throwError)
 import Control.Parallel (parOneOf)
 
-import Data.Argonaut.Parser (jsonParser)
+import Data.Argonaut.Core (jsonParser)
 import Data.Array as Arr
 import Data.Either (Either(..), either)
 import Data.Foldable (any)
